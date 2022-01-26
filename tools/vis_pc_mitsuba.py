@@ -6,7 +6,6 @@ from PIL import Image
 # from plyfile import PlyData, PlyElement
 
 PATH_TO_MITSUBA2 = "/scratch/software/mitsuba2/build/dist/mitsuba"  # mitsuba exectuable
-# PATH_TO_MITSUBA2 = "mitsuba"  # mitsuba exectuable
 
 # replaced by command line arguments
 # PATH_TO_NPY = 'pcl_ex.npy' # the tensor to load
@@ -284,18 +283,9 @@ if __name__ == "__main__":
     # main(sys.argv)
     pathToFile = ''
     from glob import glob
-
-    list_file = '/vol/vssp/datasets/multiview/3VS/datasets/3DV_dataset/list/human_test.txt'
-    import random
-    name_list = [line.rstrip().split(' ')[0] for line in open(list_file)]
-    random.shuffle(name_list)
-    pc_paths = [f'/vol/vssp/datasets/multiview/3VS/datasets/3DV_dataset/point/sketch/{item}_sketch_0.5.txt' for item in name_list[:10]]
-
-    pc_paths.extend([f'/vol/vssp/datasets/multiview/3VS/datasets/3DV_dataset/point/human_sketch/{item}.txt' for item in name_list[:10]])
-    # existed = glob(r'S:\Research\VR_Sketch\mitsuba_view\shape_view\shapenet\*.jpg')
-    # pc_paths = [item for item in pc_paths if os.path.basename(item).split('_')[0] != 'chair']
-
-    save_dir = '/scratch/visualization/3dv_20/hs'#'/scratch/dataset/3D_sketch_2021/mitsuba'
+    # TODO: replace pc_paths with your point cloud paths
+    pc_paths = glob('/vol/vssp/datasets/multiview/3VS/datasets/3DV_dataset/point/sketch/*.txt')
+    save_dir = '/scratch/dataset/3D_sketch_2021/mitsuba'
 
     work_info = [['', pathToFile, save_dir] for pathToFile in pc_paths]
     from multiprocessing import Pool

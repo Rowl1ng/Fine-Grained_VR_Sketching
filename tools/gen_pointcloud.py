@@ -119,6 +119,7 @@ if __name__ == '__main__':
     # obj_dir = argv[0]
     # save_dir = argv[1]
     # data_type = argv[2]
+    # TODO: Replace object path with yyour path
     obj_dir = '/scratch/dataset/3D_sketch_2021/obj'
     save_dir = '/scratch/dataset/3D_sketch_2021/pointcloud'
     model_files = glob(os.path.join(obj_dir, '*.obj'))
