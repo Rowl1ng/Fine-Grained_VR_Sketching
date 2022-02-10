@@ -8,10 +8,12 @@ and [Google Drive](https://drive.google.com/file/d/1nRAoj3BISFytRoapYDRKm9gic9j0
 
 Here are some samples of the shape sketch pairs in SkethchyVR:
 
-![1](images/4b495_shape.gif)![1](images/4b495.gif)![2](images/5bdcd_shape.gif)![2](images/5bdcd.gif)
+![1](images/4b495_shape.gif)![1](images/4b495.gif)
+
+![2](images/5bdcd_shape.gif)![2](images/5bdcd.gif)
 
 # VR Sketch interface
-Coming soon!
+The dataset used in this project is collected with a VR sketching interface called [SketchyVR](https://github.com/Rowl1ng/SketchyVR) which is designed to .
 
 # Sketch filtering
 Demonstration on filtering the original sketches: `tools/Filter original sketch.ipynb`
