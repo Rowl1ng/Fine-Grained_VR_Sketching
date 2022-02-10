@@ -6,9 +6,9 @@ SkethchyVR dataset are avaiable at
 [Dataset webpage](//surrey.ac.uk/Research/vssp_datasets/still/VRChairSketch/html/index.html)
 and [Google Drive](https://drive.google.com/file/d/1nRAoj3BISFytRoapYDRKm9gic9j06dkD/view?usp=sharing) (point cloud).
 
-Here are some samples of the sketches in SkethchyVR:
-![1](images/4b495.gif)
-![1](images/5bdcd.gif)
+Here are some samples of the shape sketch pairs in SkethchyVR:
+
+![1](images/4b495_shape.gif)![1](images/4b495.gif)![2](images/5bdcd_shape.gif)![2](images/5bdcd.gif)
 
 # VR Sketch interface
 Coming soon!
@@ -26,8 +26,8 @@ Install MITSUBA first and then replace the `PATH_TO_MITSUBA2` with your path.
 
 # Models for 3D shape retrieval
 
-Train 3D sketch to 3D shape retrieval:
+Train 3D sketch based 3D shape retrieval:
 `train_triplet_3dv.py`
 
-Train 2D sketch to 3D shape retrieval:
+Train 2D sketch based 3D shape retrieval:
 `train_triplet_view_2d.py`
