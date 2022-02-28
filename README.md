@@ -13,7 +13,7 @@ Here are some samples of the shape sketch pairs in SkethchyVR:
 ![2](images/5bdcd_shape.gif)![2](images/5bdcd.gif)
 
 # VR Sketch interface
-The dataset used in this project is collected with a VR sketching interface called [SketchyVR](https://github.com/Rowl1ng/SketchyVR) which is designed to .
+The dataset used in this project is collected with a VR sketching interface called [SketchyVR](https://github.com/Rowl1ng/SketchyVR) which allow participants to sketch inmmersively using VR headsets and handles like Oculus Rift.
 
 # Sketch filtering
 Demonstration on filtering the original sketches: `tools/Filter original sketch.ipynb`
