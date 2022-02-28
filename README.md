@@ -3,8 +3,8 @@
 This is the code project for _Fine-Grained VR Sketching: Dataset and Insights_ published on 3DV 2021.
 
 SkethchyVR dataset are avaiable at 
-[Dataset webpage](//surrey.ac.uk/Research/vssp_datasets/still/VRChairSketch/html/index.html)
-and [Google Drive](https://drive.google.com/file/d/1nRAoj3BISFytRoapYDRKm9gic9j06dkD/view?usp=sharing) (point cloud).
+[Dataset webpage](https://cvssp.org/data/VRChairSketch/)
+and [Google Drive](https://drive.google.com/file/d/1nRAoj3BISFytRoapYDRKm9gic9j06dkD/view?usp=sharing) (point cloud only).
 
 Here are some samples of the shape sketch pairs in SkethchyVR:
 
