@@ -33,3 +33,17 @@ Train 3D sketch based 3D shape retrieval:
 
 Train 2D sketch based 3D shape retrieval:
 `train_triplet_view_2d.py`
+
+# Cite
+Please cite our work if you find it useful:
+
+```
+@inproceedings{luo2021fine,
+  title={Fine-Grained VR Sketching: Dataset and Insights.},
+  author={Luo, Ling and Gryaditskaya, Yulia and Yang, Yongxin and Xiang, Tao and Song, Yi-Zhe},
+  booktitle={2021 International Conference on 3D Vision (3DV)},
+  pages={1003--1013},
+  year={2021},
+  organization={IEEE}
+}
+```
