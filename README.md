@@ -36,6 +36,8 @@ Train 3D sketch based 3D shape retrieval:
 Train 2D sketch based 3D shape retrieval:
 `train_triplet_view_2d.py`
 
+The `val.txt` in the published dataset only includes 101 chair models from **ShapeNetCore**. To make the validation more reliable, I added chair shapes from **ModelNet10**, resulting in a new list file, `val_shape.txt`. Therefore, `val_shape.txt` contains many more chair model names from **ModelNet10** compared to `val.txt`. You can choose which one to use based on your needs. I have uploaded all the list files, including val_shape.txt, [here](https://drive.google.com/file/d/12lz2cfG3bMGuaqGUK0nwEhyPgUz4z_nu/view?usp=sharing). Additionally, the required chair shapes from **ModelNet10** can be downloaded from [this link](https://drive.google.com/file/d/13W3YOOp_qgUYhNflU6L5XKVp6RmpsmuN/view?usp=sharing).
+
 # Cite
 Please cite our work if you find it useful:
 
